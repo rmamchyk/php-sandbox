@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "46c440f2134bd256daf26ecf2e71d826",
+    "packages": [
+        {
+            "name": "evolv/php-sdk",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/evolv-ai/php-sdk.git",
+                "reference": "9a401d7eb5ec28eeb0367f144d262e3541ae84ec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/evolv-ai/php-sdk/zipball/9a401d7eb5ec28eeb0367f144d262e3541ae84ec",
+                "reference": "9a401d7eb5ec28eeb0367f144d262e3541ae84ec",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpdocumentor/phpdocumentor": "v3.1.2",
+                "phpdocumentor/shim": "3.1.2",
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Evolv\\": "./App"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Evolv"
+                }
+            ],
+            "description": "This is the official JavPHP client for the Evolv Technologies optimization platform.",
+            "support": {
+                "issues": "https://github.com/evolv-ai/php-sdk/issues",
+                "source": "https://github.com/evolv-ai/php-sdk/tree/v1.0.0"
+            },
+            "time": "2022-08-05T17:12:48+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

@@ -1,0 +1,8 @@
+/node_modules
+/vendor
+/docs
+/.phpdoc
+/.idea
+/php.ini
+.env
+.phpunit.result.cache

@@ -1,0 +1,15 @@
+{
+    "name": "roman/php-sandbox",
+    "authors": [
+        {
+            "name": "rmamchyk",
+            "email": "roman.mamchyk@gmail.com"
+        }
+    ],
+    "require": {
+        "evolv/php-sdk": "^1.0"
+    },
+    "scripts": {
+        "start": "docker-compose up -d"
+    }
+}
